@@ -33,6 +33,11 @@ To run the example locally you need to:
 5. `npm install` to install the required dependencies.
 6. `npm run dev` to launch the development server.
 
+To run the `node-example.ts` file run the following command in your terminal
+```bash
+pnpm tsx node-example.ts
+```
+
 ## Learn More
 
 To learn more about Vercel AI SDK, Next.js, Feature Flags, and Edge Config, take a look at the following resources:
