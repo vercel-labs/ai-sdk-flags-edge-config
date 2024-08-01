@@ -4,9 +4,8 @@ This example demonstrates how to use the [Vercel AI SDK](https://sdk.vercel.ai/d
 
 ## Deploy your own
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=ai-sdk-example):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel-labs%2Fdynamic-ai-switching&project-name=dynamic-ai-switching&repository-name=dynamic-ai-switching)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel-labs%2Fai-sdk-flags-edge-config&env=OPENAI_API_KEY,GROQ_API_KEY&envDescription=AI%20Provider%20API%20Keys.&envLink=platform.openai.com)
 
 ## How to use
 
