@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Vercel AI SDK, Next.js, Edge Config and Feature Flags Example
 
-## Getting Started
+This example demonstrates how to use the [Vercel AI SDK](https://sdk.vercel.ai/docs) with [Next.js](https://nextjs.org/), [Feature Flags](https://vercel.com/docs/workflow-collaboration/feature-flags), and [Edge Config](https://vercel.com/docs/storage/edge-config) to create a flexible AI-powered application with dynamic model switching capabilities.
 
-First, run the development server:
+## Deploy your own
+
+Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=ai-sdk-example):
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyourusername%2Fdynamic-ai-switching&project-name=dynamic-ai-switching&repository-name=dynamic-ai-switching)
+
+## How to use
+
+Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npx create-next-app --example https://github.com/yourusername/ai-sdk-flags-edge-config-example ai-sdk-flags-edge-config-example
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```bash
+yarn create next-app --example https://github.com/yourusername/ai-sdk-flags-edge-config-example ai-sdk-flags-edge-config-example
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm create next-app --example https://github.com/yourusername/ai-sdk-flags-edge-config-example ai-sdk-flags-edge-config-example
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To run the example locally you need to:
+
+1. Sign up for accounts with the AI providers you want to use (e.g., OpenAI, Anthropic).
+2. Obtain API keys for each provider.
+3. [ Set up Edge Config ](https://vercel.com/docs/storage/edge-config/get-started) in your Vercel dashboard.
+4. Set the required environment variables as shown in the `.env.example` file, but in a new file called `.env`.
+5. `npm install` to install the required dependencies.
+6. `npm run dev` to launch the development server.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about Vercel AI SDK, Next.js, Feature Flags, and Edge Config, take a look at the following resources:
 
+- [Vercel AI SDK docs](https://sdk.vercel.ai/docs)
+- [Vercel AI Playground](https://play.vercel.ai)
+- [Vercel Feature Flags documentation](https://vercel.com/docs/workflow-collaboration/feature-flags)
+- [Vercel Edge Config documentation](https://vercel.com/docs/concepts/edge-network/edge-config)
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
