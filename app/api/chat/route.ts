@@ -1,5 +1,6 @@
 import { convertToCoreMessages, streamText } from 'ai';
-import { registry, modelId } from '@/lib/ai-config';
+import { registry } from '@/lib/ai-config';
+import { modelId } from '@/flags';
 
 export const maxDuration = 30;
 
