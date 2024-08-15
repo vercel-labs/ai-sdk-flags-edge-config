@@ -26,7 +26,7 @@ pnpm create next-app --example https://github.com/vercel-labs/ai-sdk-flags-edge-
 To run the example locally you need to:
 
 1. Sign up for accounts with the AI providers you want to use (e.g., OpenAI, Anthropic).
-2. Obtain API keys for each provider.
+2. Get / Add API keys for each provider.
 3. [ Set up Edge Config ](https://vercel.com/docs/storage/edge-config/get-started) in your Vercel dashboard.
 4. Set the required environment variables as shown in the `.env.example` file, but in a new file called `.env`.
 5. `npm install` to install the required dependencies.
