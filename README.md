@@ -5,7 +5,7 @@ This example demonstrates how to use the [Vercel AI SDK](https://sdk.vercel.ai/d
 ## Deploy your own
 
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel-labs%2Fai-sdk-flags-edge-config&env=OPENAI_API_KEY,GROQ_API_KEY&envDescription=AI%20Provider%20API%20Keys.&envLink=platform.openai.com)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/templates/Next.js/ai-sdk-feature-flags-edge-config)
 
 ## How to use
 
