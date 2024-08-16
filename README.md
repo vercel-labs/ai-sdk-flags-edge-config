@@ -32,6 +32,11 @@ To run the example locally you need to:
 5. `npm install` to install the required dependencies.
 6. `npm run dev` to launch the development server.
 
+Note: you can generate the value for the `FLAGS_SECRET` by running the following code in your terminal:
+```bash
+node -e "console.log(crypto.randomBytes(32).toString('base64url'))"
+```
+
 To run the `node-example.ts` file run the following command in your terminal
 ```bash
 pnpm tsx node-example.ts
