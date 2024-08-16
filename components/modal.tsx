@@ -70,11 +70,16 @@ export function Modal({ closeModal }: { closeModal: () => void }) {
             preload="auto"
           />
         </div>
-        <p>
-          Note: to use this demo, you must deploy the template as it uses the
-          Vercel toolbar to toggle the <CodeSnippet>model_id</CodeSnippet>{" "}
-          Feature Flag.
-        </p>
+        <div className="flex items-start p-4 bg-zinc-100 rounded-lg">
+          <svg className="w-6 h-6 text-zinc-600 mr-3 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          <p>
+            To use this demo, you must deploy the template as it uses the
+            Vercel toolbar to toggle the <CodeSnippet>model_id</CodeSnippet>{" "}
+            Feature Flag.
+          </p>
+        </div>
         <div>
           <a href="https://vercel.com/templates/Next.js/ai-sdk-feature-flags-edge-config">
             <img src="https://vercel.com/button" alt="Deploy with Vercel" />
