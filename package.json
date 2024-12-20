@@ -9,13 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@ai-sdk/openai": "^0.0.40",
+    "@ai-sdk/openai": "^1.0.10",
     "@radix-ui/react-avatar": "^1.1.0",
     "@radix-ui/react-slot": "^1.1.0",
     "@vercel/edge-config": "^1.2.1",
     "@vercel/flags": "^2.6.0",
     "@vercel/toolbar": "^0.1.15",
-    "ai": "^3.2.36",
+    "ai": "^4.0.21",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "lucide-react": "^0.427.0",
