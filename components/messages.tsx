@@ -2,12 +2,10 @@
 import React from "react";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Card, CardContent } from "@/components/ui/card";
-import { MemoizedReactMarkdown } from "./markdown";
+import { Streamdown } from "streamdown";
 
 function MessageContent({ message }: { message: string }) {
-  return (
-    <MemoizedReactMarkdown className="prose">{message}</MemoizedReactMarkdown>
-  );
+  return <Streamdown>{message}</Streamdown>;
 }
 interface MessageProps {
   message: string;
